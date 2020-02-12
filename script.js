@@ -30,7 +30,6 @@ function citySearch(city) {
   }).then(function(response) {
     var cityInfo = response.name;
     console.log(cityInfo);
-    //   * Date
     var dateInfo = response.dt;
     console.log(dateInfo);
     var currentDate = moment.unix(dateInfo).format("L");

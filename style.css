@@ -16,7 +16,6 @@ body {
 
 .r2a {
   border: 1px solid rgb(133, 216, 212);
-  border-radius: 0.5rem;
   padding-left: 3rem;
 }
 
@@ -28,7 +27,6 @@ body {
 #city-input {
   margin-top: 0.5rem;
   border: 1px solid rgb(133, 216, 212);
-  border-radius: 0.5rem;
 }
 
 .list-group-item {
@@ -43,31 +41,6 @@ body {
   padding: 0.9rem;
 }
 
-.uvGreen {
-  background-color: lightgreen;
-  border-radius: 5px;
-}
-
-.uvYellow {
-  background-color: lightyellow;
-  border-radius: 5px;
-}
-
-.uvOrange {
-  background-color: lightsalmon;
-  border-radius: 5px;
-}
-
-.uvRed {
-  background-color: palevioletred;
-  border-radius: 5px;
-}
-
-.uvPurple {
-  background-color: violet;
-  border-radius: 5px;
-}
-
 img {
   width: 10%;
   height: 10%;
@@ -78,5 +51,30 @@ img {
 }
 
 .forcast {
-  padding: 1rem;
+  padding: 3rem;
+}
+
+.uvGreen {
+  background-color: lightgreen;
+  border-radius: 3px;
+}
+
+.uvYellow {
+  background-color: lightyellow;
+  border-radius: 3px;
+}
+
+.uvOrange {
+  background-color: lightsalmon;
+  border-radius: 3px;
+}
+
+.uvRed {
+  background-color: palevioletred;
+  border-radius: 3px;
+}
+
+.uvPurple {
+  background-color: violet;
+  border-radius: 3px;
 }
