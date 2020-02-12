@@ -53,18 +53,18 @@ function citySearch(city) {
     console.log(F);
     $(".temp").append("Temperature: " + F + " °F");
 
-    //   * Humidity
+    //   humidity
     var humidityInfo = response.main.humidity;
     $(".humidity").append("Humidity: " + humidityInfo + "%");
 
-    //   * Wind speed
+    //  wind speed
     console.log(response.wind.speed);
     var oldSpeed = response.wind.speed;
     console.log(oldSpeed);
     var newSpeed = (oldSpeed * 2.2369).toFixed(2);
     $(".wind").append("Wind Speed: " + newSpeed + " MPH");
 
-    //   * UV index
+    //   UV index
     var lon = response.coord.lon;
     var lat = response.coord.lat;
 
