@@ -1,6 +1,6 @@
 
 
-Check local weather here!
+Check local weather here! 🌦
 
 Whats included?
 -Location
